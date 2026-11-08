@@ -136,4 +136,37 @@ Pour l'exécuter, ouvrir le fichier `main.py` avec Python ou Thonny, puis lancer
 
 ### Résultat de l'exécution
 
-![Résultat du programme](resultat.png)
+![Résultat du programme](resultat.png)       
+## 10. Sélection par loterie (Roulette Wheel Selection) – Fichier indépendant
+
+En plus du programme principal, nous avons réalisé un deuxième fichier Python nommé `selection_roulette.py`.
+
+Ce fichier permet d'implémenter et de tester séparément la méthode de sélection par loterie.
+
+### Fonctionnement du code
+
+- La fonction `selection_roulette()` reçoit la population et les valeurs de fitness.
+- Elle calcule la somme des fitness.
+- Elle génère un nombre aléatoire entre 0 et la somme totale.
+- Elle parcourt la population pour déterminer le chromosome sélectionné.
+- Les chromosomes ayant une fitness plus élevée ont une probabilité plus importante d'être sélectionnés.
+- Si toutes les fitness sont nulles, un chromosome est choisi aléatoirement.
+
+### Exemple de test
+
+Une population de quatre chromosomes est utilisée avec les fitness suivantes :
+
+`[25, 15, 10, 5]`
+
+Le programme exécute la sélection et affiche le chromosome choisi.
+
+### Objectif
+
+L'objectif de ce fichier est de comprendre et de tester indépendamment la méthode Roulette Wheel Selection en Python.
+
+### Capture d'écran
+
+<img width="1261" height="111" alt="image" src="https://github.com/user-attachments/assets/e774929c-e24d-4783-bbb3-5dec4f5a083d" />
+
+
+
